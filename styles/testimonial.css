@@ -7,6 +7,7 @@
 
 .testimonial__info {
     grid-column: span 3;
+    animation: info-slide 2000ms;
 }
 
 .testimonial__heading {
@@ -39,14 +40,17 @@
 
 .testimonial__rating-box:first-child {
     justify-self: start;
+    animation: rating-slide 1000ms;
 }
 
 .testimonial__rating-box:nth-child(2) {
     justify-self: center;
+    animation: rating-slide 1500ms;
 }
 
 .testimonial__rating-box:last-child {
     justify-self: end;
+    animation: rating-slide 2000ms;
 }
 
 .testimonial__stars {
@@ -76,14 +80,15 @@
     background: var(--clr-magneta-dark);
     border-radius: 7px;
     padding: 40px 45px 40px 34px;
+    animation: ref-slide1 1000ms;
 }
 
 .testimonial__ref-box:nth-child(2) {
-    transform: translateY(20px);
+    animation: ref-slide2 1500ms forwards;
 }
 
 .testimonial__ref-box:last-child {
-    transform: translateY(40px);
+    animation: ref-slide3 2000ms forwards;
 }
 
 .testimonial__customer {
