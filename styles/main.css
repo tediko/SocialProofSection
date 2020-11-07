@@ -24,6 +24,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: url('../assets/images/bg-pattern-top-desktop.svg'), url('../assets/images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
     font-size: 16px;
     font-family: 'Spartan', sans-serif;
 }
