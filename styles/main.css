@@ -1,0 +1,25 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+/* Variables */
+:root {
+    /* Colors */
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-magneta-dark: hsl(300, 43%, 22%);
+    --clr-magneta-grayish-dark: hsl(303, 10%, 53%);
+    --clr-magneta-grayish-light: hsl(300, 24%, 96%);
+    --clr-pink: hsl(333, 80%, 67%);
+    --clr-blue:  hsl(228, 45%, 44%);
+}
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Spartan', sans-serif;
+}
