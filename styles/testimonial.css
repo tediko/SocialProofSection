@@ -2,6 +2,7 @@
 .testimonial__wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    padding: 0 40px;
 }
 
 .testimonial__info {
