@@ -1,4 +1,8 @@
 /* Testimonial section */
+.testimonial {
+    margin: 100px 0;
+}
+
 .testimonial__wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
