@@ -174,7 +174,8 @@
     }
 
     .testimonial__ref-box {
-        max-width: 700px;
+        max-width: 500px;
+        margin: 0 auto;
     }
 
     .testimonial__name {
